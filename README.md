@@ -46,13 +46,14 @@ For a copy of the GNU General Public License see
 
 Copyright 2021 Thomas Dauser, Remeis Observatory & ECAP
 
-#########################################
-#########################################
+-------------------------------------------
 
 # The properties of relxillA
 
 RelxillA is an angle-improved relxill-type model which designed for next-generation instrument *NewAthena*/X-IFU and LAD. 
 
 As show in [Huang et al (2025)](https://arxiv.org/abs/2506.00946), relxillA simply improves the calculation of the emission angle and predicts slightly different spectra with respect to older models.Therefore it does not introduce any new parameter degeneracy. And relxillA can fit well the simulated observations of [Liu et al (2025)](https://academic.oup.com/mnras/article/536/3/2594/7922853).
+
+## Comparsion between relxill and relxillA
 
 
