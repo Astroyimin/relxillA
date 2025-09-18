@@ -11,4 +11,5 @@ As show in [Huang et al (2025)](https://arxiv.org/abs/2506.00946), relxillA simp
 
 ## Comparsion between relxill and relxillA
 
+[Comparsion between relxill v2.4 v2.5 and relxillA (where relxill v2.5 fixed r^4 error by[Huang et al (2025)](https://arxiv.org/abs/2506.00946) )](figure/relxill.vs.relxillA-1.png)
 
