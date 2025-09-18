@@ -1,19 +1,17 @@
-#########################################
-#####  README of the RELXILL model  #####
-#########################################
 
+#  README of the RELXILL model  
 Please read the following instructions carefully in order to ensure a
 properly working version of the model. Note that this model is
 designed and tested to be used within the X-ray spectral fitting
 software ISIS and XSPEC. 
 
-(1) Installing the model:
+## Installing the model:
 
   - All to execute the compile script by "chmod u+x compile_relxill.sh"
 
   - Execute "./compile_relxill.sh"
 
-(2) Setting up the model environment:
+## Setting up the model environment:
 
   - Most importantly the model needs to know where the pre-calculated
     tables are located. By default it assumed that they are in the
@@ -25,17 +23,14 @@ software ISIS and XSPEC.
     the .cshrc:
     "setenv RELXILL_TABLE_PATH /home/user/data/relline_tables/"
 
-(3) Loading the model in XSPEC:
+## Loading the model in XSPEC:
 
   From the directory where the model has been installed, the model can
   simply be loaded inside XSPEC: "lmod relxill .".
 
 
 
-(4)  For questions and bug reports, please contact thomas.dauser@fau.de
-
-#########################################
-#########################################
+## For questions and bug reports, please contact thomas.dauser@fau.de
 
 RELXILL is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by
