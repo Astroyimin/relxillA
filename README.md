@@ -17,10 +17,12 @@ A key improvement in relxillA is its handling of the local emission spectrum. Wh
 panels). The projection of the observer in the XY plane is at X = 0 and Y < 0. The black circle at the center of every panel is the region inside the ISCO, where there
 is no emission.](figure/emissionmap.png)
 
+
 ## Comparsion between relxill and relxillA
 
 
 ![Comparsion between relxill v2.4 v2.5 and relxillA (where relxill v2.5 fixed r^4 error by Huang et al (2025))](figure/relxill.vs.relxillA-1.png)
+
 
 ## Simulation 
 We showed that the approximations implemented in relxill and relxill_nk are unsuitable to fit high-quality full reflection spectra ([Liu et al (2025)](https://academic.oup.com/mnras/article/536/3/2594/7922853)), which require instead reflection models with more accurate calculations of the emission angle.
